@@ -2,7 +2,9 @@
 
 If you're like me, you grew up drawing mustaches on celebrities. Every photograph was subject to your doodling wrath, and your brilliance was taken to a whole new level with computer programs like Microsoft Paint. The advent of digital cameras meant that no one was safe from your handiwork, especially not your friends. And when you finally got your hands on Photoshop, you spent hours maniacally giggling at your artistic genius. 
 
-But today is different. You're a serious adult with important things to do and a reputation to uphold. You keep up with modern web techniques and trends, and have little time for fun other than a random Giphy on Slack... right? **Nope.** 
+But today is different. You're a serious adult with important things to do and a reputation to uphold. You keep up with modern web techniques and trends, and have little time for fun other than a random Giphy on Slack... right? 
+
+**Nope.** 
 
 If there's one thing 2016 has taught me, it's that we—the self-serious, world-changing tech movers and shakers of the universe—haven't changed one bit from our younger, more delightable selves.
 
