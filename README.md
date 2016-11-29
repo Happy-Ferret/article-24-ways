@@ -136,7 +136,7 @@ Your objects will be categorized into groups, and one option from each group wil
 #### Create a group of accessories
 To get started, open up Illustrator and create a new artboard out of the template. Think of a group of objects that you can riff on. I found hats to be a good place to start. If you don't feel like illustrating, you can use cut-out images instead.
 
-![Hats in Illustrator](step4-1.png)
+![Hats in Illustrator](images/step4-1.png)
 
 Next, follow the same steps as you did when you exported the faces. Here they are again:
 
@@ -163,12 +163,12 @@ customProps: {
 
 Refresh Chrome and behold, accessories!
 
-![Hats in the application](step4-2.png)
+![Hats in the application](images/step4-2.png)
 
 #### Create as many more accessories as you want
 Repeat the steps above to create as many groups of accessories as you want. I went on to make glasses and hairstyles, so my final illustrator file looks like this:
 
-![Final illustrator file](step4-3.png)
+![Final illustrator file](images/step4-3.png)
 
 And my final `customProps` object looks like this:
 
