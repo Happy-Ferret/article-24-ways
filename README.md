@@ -49,7 +49,7 @@ Notice that some of my photos don't completely fill the artboard–that's fine. 
 Now, export your images by following these steps:
 
 1. Turn the `Template` layer off and export the images as PNGs. 
-2. In the Export dialog, tick the "Use Artboards" checkbox to and enter the range with your faces. 
+2. In the Export dialog, tick the "Use Artboards" checkbox and enter the range with your faces. 
 3. Export at 72ppi to keep things running fast. 
 4. Save your images into the `images/` folder in your project.
 
@@ -142,7 +142,7 @@ To get started, open up Illustrator and create a new artboard out of the templat
 Next, follow the same steps as you did when you exported the faces. Here they are again:
 
 1. Turn the `Template` layer off and export the images as PNGs. 
-2. In the Export dialog, tick the "Use Artboards" checkbox to and enter the range with your hats. 
+2. In the Export dialog, tick the "Use Artboards" checkbox and enter the range with your hats. 
 3. Export at 72ppi to keep things running fast. 
 4. Save your images into the `images/` folder in your project.
 
@@ -228,6 +228,6 @@ To test your extension, you'll need to run it in Developer Mode. Here's how to d
 Voila! Like I said, this is a _very_ light example of a Chrome extension, but Google has tons of great [documentation](https://developer.chrome.com/extensions) on how to take things further. Check it out and see what inspires you.
 
 ## Share the love
-Now that you know how to make a new tab extension, go forth and create! But yield your power responsibly. New tabs are opened so often that they've become a part of everyday life–just consider how many tabs you opened today. Some people prefer to-do lists in their new tabs, and others prefer cats. 
+Now that you know how to make a new tab extension, go forth and create! But wield your power responsibly. New tabs are opened so often that they've become a part of everyday life–just consider how many tabs you opened today. Some people prefer to-do lists in their new tabs, and others prefer cats. 
 
 At the end of the day, let's make something that makes us happy. Cheers!
