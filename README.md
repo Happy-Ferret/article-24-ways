@@ -26,15 +26,12 @@ Along the way, we'll cover how to build a Chrome extension that replaces the new
 _Note: This can be as simple or as complex as you want it to be. Most of the application is pre-built so you can focus on kicking back and getting in touch with your creative side. If you want to dive in deeper, you'll find ways to do it._
 
 ## Getting started
-**Download a local copy of the boilerplate for today's tutorial [here](https://github.com/lzacharkow/Friendville),** and open it in a text editor. Inside, you'll find a simple web app that you can run in Chrome. 
 
-We're going to do most of our work in the `scripts/config.js` file. If you want to dive in deeper, check out `scripts/index.js` to see how the configuration object is used.
+1. Download a local copy of the boilerplate for today's tutorial [here](https://github.com/lzacharkow/Friendville), and open it in a text editor. Inside, you'll find a simple web app that you can run in Chrome. 
+2. Open `index.html` in Chrome. You should see a grey page that says "Noname".
+3. Open `template.pdf` in Adobe Illustrator or a similar program that can export PNG. The file contains an artboard measuring 800px x 800px, with a dotted blue outline of a face. This is your template.
 
-**Open `index.html` in Chrome.** You should see a grey page that says "Noname", and a couple of console errors telling you some things are missing.
-
-We're using Google Chrome to build and preview this application because the end-result is a Chrome extension or a website you can redirect your new tab page towards.
-
-**Open `template.pdf` in Adobe Illustrator** (or a similar program that can export PNG). The file contains an artboard measuring 800px x 800px, with a dotted blue outline of a face. This is your template.
+Note: We're using Google Chrome to build and preview this application because the end-result is a Chrome extension. This means that the application isn't totally browser-compatible, but that's okay.
 
 ## Step 1: Gather your friends
 The first thing to do is choose who your muses are. Since the holidays are upon us, I'd suggest finding inspiration in your family.
