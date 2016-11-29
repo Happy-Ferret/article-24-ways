@@ -101,8 +101,8 @@ When you refresh Chrome, you should see one of these words prefixed before your 
 ## Step 3: Choose your color palette
 Real talk: I'm bad at choosing color palettes, so I have a trick up my sleeve that I want to share with you. If you've been blessed with the gift of color aptitude, skip ahead.
 
-#### Choose your palette
-To choose a color palette, I start by going to a [Coolors.co](https://coolors.co/), and I hit the spacebar until I find a color palette that I like. We need a wide gamut of hues for our palette, so lock down colors you like and keep hitting the spacebar until you find a nice, full range. You can use as many or as few colors as you like.
+#### How to choose colors
+To create a color palette, I start by going to a [Coolors.co](https://coolors.co/), and I hit the spacebar until I find a palette that I like. We need a wide gamut of hues for our palette, so lock down colors you like and keep hitting the spacebar until you find a nice, full range. You can use as many or as few colors as you like.
 
 Copy these colors into your swatches in Adobe Illustrator. They'll be the base for any illustrations you create later.
 
