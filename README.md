@@ -217,7 +217,8 @@ All you need to do to make your project into a Chrome extension is add a `manife
 }
 ```
 
-To test your extension, you'll need to run it in Developer Mode by doing this:
+To test your extension, you'll need to run it in Developer Mode. Here's how to do that:
+
 1. Go to the Extensions page in Chrome by navigating to `chrome://extensions/`.
 2. Tick the checkbox in the upper-right corner labelled "Developer Mode".
 3. Click "Load unpacked extension..." and select this project.
