@@ -39,7 +39,7 @@ The first thing to do is choose who your muses are. Since the holidays are upon 
 #### Create your artwork
 For each person, find an image where their face is pointed as forward as possible. Place the image onto the `Artwork` layer of the Illustrator file, and line up their face with the template. Then, rename the artboard something descriptive, like `face_bob`. Here's my crew:
 
-![Faces in Illustrator](images/step2-1.png)
+![Faces in Illustrator](images/step1-1.png)
 _As you can see, my use of the word "family" extends to cats. There's no judgement here._
 
 I find it helpful to clip my images at the edge of each artboard so that my file remains neat and tidy. Notice that some of my photos don't completely fill the artboard–that's fine. The images will be clipped into ovals when they're rendered in the application.
@@ -67,7 +67,7 @@ The application will choose one of these options at random each time you open a 
 
 Now, when you refresh the project in Chrome, you should see one of your friends along with their name, like this:
 
-![Faces in config.js](images/step2-2.png)
+![Faces in config.js](images/step1-2.png)
 
 Congrats, you're off and running!
 
