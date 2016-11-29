@@ -229,4 +229,4 @@ Voila! Like I said, this is a _very_ light example of a Chrome extension, but Go
 ## Share the love
 Now that you know how to make a new tab extension, go forth and create! But yield your power responsibly. New tabs are opened so often that they've become a part of everyday life–just consider how many tabs you opened today. Some people prefer to-do lists in their new tabs, and others prefer cats. 
 
-At the end of the day, let's make something that makes us happy.
+At the end of the day, let's make something that makes us happy. Cheers!
