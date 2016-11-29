@@ -37,14 +37,15 @@ Note: We're using Google Chrome to build and preview this application because th
 The first thing to do is choose who your muses are. Since the holidays are upon us, I'd suggest finding inspiration in your family.
 
 #### Create your artwork
-For each person, find an image where their face is pointed as forward as possible. Place the image onto the `Artwork` layer of the Illustrator file, and line up their face with the template. Then, rename the artboard something descriptive, like `face_bob`. Here's my crew:
+For each person, find an image where their face is pointed as forward as possible. Place the image onto the `Artwork` layer of the Illustrator file, and line up their face with the template. Then, rename the artboard something descriptive like `face_bob`. Here's my crew:
 
 ![Faces in Illustrator](images/step1-1.png)
 _As you can see, my use of the word "family" extends to cats. There's no judgement here._
 
 I find it helpful to clip my images at the edge of each artboard so that my file remains neat and tidy. Notice that some of my photos don't completely fill the artboard–that's fine. The images will be clipped into ovals when they're rendered in the application.
 
-Now, export your images:
+Now, export your images by following these steps:
+
 1. Turn the `Template` layer off and export the images as PNGs. 
 2. In the Export dialog, tick the "Use Artboards" checkbox to and enter the range with your faces. 
 3. Export at 72ppi to keep things running fast. 
