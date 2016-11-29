@@ -73,7 +73,7 @@ Now, when you refresh the project in Chrome, you should see one of your friends 
 
 Congrats, you're off and running!
 
-## Step 2: Add funny names
+## Step 2: Add adjectives
 Now that you've loaded your friends into the application, it's time to call them names. This step definitely yields the most laughs for the least amount of effort.
 
 Add a list of adjectives into the `prefixes` array in `config.js`. To get the words flowing, I took inspiration from ways I might describe some of my relatives during a holiday gathering...
@@ -94,7 +94,7 @@ prefixes: [
 ]
 ```
 
-When you refresh Chrome, you should see one of these words prefixed before your friends' name. Voila!
+When you refresh Chrome, you should see one of these words prefixed before your friend's name. Voila!
 
 ![Adjectives](images/step2-1.png)
 
