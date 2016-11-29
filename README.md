@@ -228,6 +228,6 @@ To test your extension, you'll need to run it in Developer Mode. Here's how to d
 Voila! Like I said, this is a _very_ light example of a Chrome extension, but Google has tons of great [documentation](https://developer.chrome.com/extensions) on how to take things further. Check it out and see what inspires you.
 
 ## Share the love
-Now that you know how to make a new tab extension, go forth and create! But wield your power responsibly. New tabs are opened so often that they've become a part of everyday life–just consider how many tabs you opened today. Some people prefer to-do lists in their new tabs, and others prefer cats. 
+Now that you know how to make a new tab extension, go forth and create! But wield your power responsibly. New tabs are opened so often that they've become a part of everyday life–just consider how many tabs you opened today. Some people prefer to-do lists in their tabs, and others prefer cats. 
 
 At the end of the day, let's make something that makes us happy. Cheers!
