@@ -36,7 +36,7 @@ Note: We're using Google Chrome to build and preview this application because th
 ## Step 1: Gather your friends
 The first thing to do is choose who your muses are. Since the holidays are upon us, I'd suggest finding inspiration in your family.
 
-##### Create your artwork
+#### Create your artwork
 For each person, find an image where their face is pointed as forward as possible. Place the image onto the `Artwork` layer of the Illustrator file, and line up their face with the template. Then, rename the artboard something descriptive, like `face_bob`. Here's my crew:
 
 ![Faces in Illustrator](images/step2-1.png)
@@ -50,7 +50,7 @@ Now, export your images:
 3. Export at 72ppi to keep things running fast. 
 4. Save your images into the `images/` folder in your project.
 
-##### Add your images to config.js
+#### Add your images to config.js
 Open `scripts/config.js`. This is where you configure your extension. 
 
 Add key value pairs to the `faces` object. The key should be the person's name, and the value should be the filepath to the image.
@@ -99,7 +99,7 @@ When you refresh Chrome, you should see one of these words prefixed before your 
 ## Step 3: Choose your color palette
 Real talk: I'm bad at choosing color palettes, so I have a trick up my sleeve that I want to share with you. If you've been blessed with the gift of color aptitude, skip ahead.
 
-##### Choose your palette
+#### Choose your palette
 To choose a color palette, I start by going to a [Coolors.co](https://coolors.co/), and I hit the spacebar until I find a color palette that I like. We need a wide gamut of hues for our palette, so lock down colors you like and keep hitting the spacebar until you find a nice, full range. You can use as many or as few colors as you like.
 
 Copy these colors into your swatches in Adobe Illustrator. They'll be the base for any illustrations you create later.
@@ -108,7 +108,7 @@ Now you need a set of background colors. Here's my trick to making these consist
 
 ![Choosing complimentary background colors with Coolor](images/step3-1.gif)
 
-##### Add your background colors to config.js 
+#### Add your background colors to config.js 
 Copy your hex codes into the `bgColors` array in `config.js`.
 
 ```js
@@ -131,7 +131,7 @@ This is the fun part. We're going to illustrate objects, accessories, lizards—
 
 Your objects will be categorized into groups, and one option from each group will be randomly chosen each time you load the page. Think of a group like "hats" or "glasses". This will allow combinations of accessories to show at once, without showing two of the same type on the same person.
 
-##### Create a group of accessories
+#### Create a group of accessories
 To get started, open up Illustrator and create a new artboard out of the template. Think of a group of objects that you can riff on. I found hats to be a good place to start. If you don't feel like illustrating, you can use cut-out images instead.
 
 ![Hats in Illustrator](step4-1.png)
@@ -145,7 +145,7 @@ Next, follow the same steps as you did when you exported the faces. Here they ar
 
 Now, load your images into the application and see what you've created.
 
-##### Add your accessories to config.js
+#### Add your accessories to config.js
 In `config.js`, add a new key to the `customProps` object that describes the group of accessories you just created. Its value should be an array of the filepaths to your images.
 
 ```js
@@ -163,7 +163,7 @@ Refresh Chrome and behold, accessories!
 
 ![Hats in the application](step4-2.png)
 
-##### Create as many more accessories as you want
+#### Create as many more accessories as you want
 Repeat the steps above to create as many groups of accessories as you want. I went on to make glasses and hairstyles, so my final illustrator file looks like this:
 
 ![Final illustrator file](step4-3.png)
@@ -203,7 +203,7 @@ It's time to put this in your new tabs! You have two options:
 
 Today, we're going to cover Option #1 because I want to show you how to make the simplest Chrome extension possible. However, I recommend Option #2 if you want to keep your project private. Every Chrome extension that you publish is made publicly available, so unless your friends want their faces published to an extension that anyone can use, I'd suggest sticking to Option #2.
 
-##### How to make a simple Chrome extension to replace the new tab page
+#### How to make a simple Chrome extension to replace the new tab page
 All you need to do to make your project into a Chrome extension is add a `manifest.json` file with the following contents. There are [plenty of other properties](https://developer.chrome.com/extensions/manifest) that you can add to your manifest file, but these are the only ones that are required for a new tab replacement:
 
 ```js
@@ -225,7 +225,7 @@ To test your extension, you'll need to run it in Developer Mode by doing this:
 
 Voila! Like I said, this is a _very_ light example of a Chrome extension, but Google has tons of great [documentation](https://developer.chrome.com/extensions) on how to take things further. Check it out and see what inspires you.
 
-### Share the love
+## Share the love
 Now that you know how to make a new tab extension, go forth and create! But yield your power responsibly. New tabs are opened so often that they've become a part of everyday life–just consider how many tabs you opened today. Some people prefer to-do lists in their new tabs, and others prefer cats. 
 
 At the end of the day, let's make something that makes us happy.
