@@ -33,7 +33,7 @@ _Note: This can be as simple or as complex as you want it to be. Most of the app
 2. Open `index.html` in Chrome. You should see a grey page that says "Noname".
 3. Open `template.pdf` in Adobe Illustrator or a similar program that can export PNG. The file contains an artboard measuring 800px x 800px, with a dotted blue outline of a face. This is your template.
 
-Note: We're using Google Chrome to build and preview this application because the end-result is a Chrome extension. This means that the application isn't totally browser-compatible, but that's okay.
+Note: We're using Google Chrome to build and preview this application because the end-result is a Chrome extension. This means that the application isn't totally cross-browser compatible, but that's okay.
 
 ## Step 1: Gather your friends
 The first thing to do is choose who your muses are. Since the holidays are upon us, I'd suggest finding inspiration in your family.
