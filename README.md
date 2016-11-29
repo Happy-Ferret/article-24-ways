@@ -10,7 +10,9 @@ How do I know? This year I created a Chrome extension called [Tabby Cat](https:/
 
 ![Tabby Cat](images/tabbycat.gif)
 
-Today, we’re going to combine the formula behind Tabby Cat with your intrinsic desire to delight (or troll) your friends, and create a web app that generates your friends with random objects and environments of your choosing. You can publish it as a Chrome extension to replace your new tab, or simply host it as a website and point to it with the [New Tab Redirect](https://chrome.google.com/webstore/detail/new-tab-redirect/icpgjfneehieebagbmdbhnlpiopdcmna?hl=en) extension. Here's a sneak peek at my final result, featuring my partner, my cat, and I in cheerfully weird accessories (your result will look however you want it to).
+Today, we’re going to combine the formula behind Tabby Cat with your intrinsic desire to delight (or troll) your friends, and create a web app that generates your friends with random objects and environments of your choosing. You can publish it as a Chrome extension to replace your new tab, or simply host it as a website and point to it with the [New Tab Redirect](https://chrome.google.com/webstore/detail/new-tab-redirect/icpgjfneehieebagbmdbhnlpiopdcmna?hl=en) extension. 
+
+Here's a sneak peek at my final result featuring my partner, my cat, and I in cheerfully weird accessories. Your result will look however you want it to.
 
 ![Preview](images/preview.gif)
 
