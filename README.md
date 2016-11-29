@@ -204,7 +204,7 @@ It's time to put this in your new tabs! You have two options:
 Today, we're going to cover Option #1 because I want to show you how to make the simplest Chrome extension possible. However, I recommend Option #2 if you want to keep your project private. Every Chrome extension that you publish is made publicly available, so unless your friends want their faces published to an extension that anyone can use, I'd suggest sticking to Option #2.
 
 #### How to make a simple Chrome extension to replace the new tab page
-All you need to do to make your project into a Chrome extension is add a `manifest.json` file with the following contents. There are [plenty of other properties](https://developer.chrome.com/extensions/manifest) that you can add to your manifest file, but these are the only ones that are required for a new tab replacement:
+All you need to do to make your project into a Chrome extension is add a `manifest.json` file to the root of your project with the following contents. There are [plenty of other properties](https://developer.chrome.com/extensions/manifest) that you can add to your manifest file, but these are the only ones that are required for a new tab replacement:
 
 ```js
 {
