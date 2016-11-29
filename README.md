@@ -8,8 +8,7 @@ If there's one thing 2016 has taught me, it's that we—the self-serious, world-
 
 How do I know? This year I created a Chrome extension called [Tabby Cat](https://chrome.google.com/webstore/detail/tabby-cat/mefhakmgclhhfbdadeojlkbllmecialg) and watched hundreds of thousands of people ditch productivity for randomly generated cats. Tabby Cat replaces your new tab page with an SVG cat featuring a silly name like "Stinky Dinosaur" or "Tiny Potato". Over time, the cats collect goodies that vary in absurdity from fishbones to lawn flamingos to Raybans. Kids and adults alike use this extension, and analytics show the majority of use happens Monday through Friday from 9-5. The popularity of Tabby Cat has convinced me there's still plenty of room in our big, grown-up hearts for fun.
 
-![Tabby Cat](images/tabbycat.gif)
-_[Tabby Cat](https://chrome.google.com/webstore/detail/tabby-cat/mefhakmgclhhfbdadeojlkbllmecialg)_
+[![Tabby Cat](images/tabbycat.gif)](https://chrome.google.com/webstore/detail/tabby-cat/mefhakmgclhhfbdadeojlkbllmecialg)
 
 Today, we’re going to combine the formula behind Tabby Cat with your intrinsic desire to delight (or troll) your friends, and create a web app that generates your friends with random objects and environments of your choosing. You can publish it as a Chrome extension to replace your new tab, or simply host it as a website and point to it with the [New Tab Redirect](https://chrome.google.com/webstore/detail/new-tab-redirect/icpgjfneehieebagbmdbhnlpiopdcmna?hl=en) extension. 
 
@@ -145,10 +144,8 @@ Next, follow the same steps as you did when you exported the faces. Here they ar
 3. Export at 72ppi to keep things running fast. 
 4. Save your images into the `images/` folder in your project.
 
-Now, load your images into the application and see what you've created.
-
 #### Add your accessories to config.js
-In `config.js`, add a new key to the `customProps` object that describes the group of accessories you just created. Its value should be an array of the filepaths to your images.
+In `config.js`, add a new key to the `customProps` object that describes the group of accessories that you just created. Its value should be an array of the filepaths to your images. This is my hats array:
 
 ```js
 customProps: {
@@ -170,7 +167,7 @@ Repeat the steps above to create as many groups of accessories as you want. I we
 
 ![Final illustrator file](images/step4-3.png)
 
-And my final `customProps` object looks like this:
+The last step is adding your new groups to the config object. List your groups in the order that you want them to be stacked in the DOM. My final output will be hair, then hats, then glasses:
 
 ```js
 customProps: {
@@ -191,9 +188,9 @@ customProps: {
 }
 ```
 
-Notice that I put `hair` before `hats`. The order you declare your groups in `customProps` determines the stack order in the DOM. So my final output will be hair, then hats, then glasses.
-
 And, there you have it! Randomly generated friends with random accessories. 
+
+![Final Beep](images/step4-4.png)
 
 Feel free to go much crazier than I did. I considered adding a whole group of animals in celebration of the new season of Planet Earth, or even adding Sir Attenborough himself, or doing a bit of role reversal and featuring the animals with little safari hats! But I digress...
 
@@ -206,7 +203,7 @@ It's time to put this in your new tabs! You have two options:
 Today, we're going to cover Option #1 because I want to show you how to make the simplest Chrome extension possible. However, I recommend Option #2 if you want to keep your project private. Every Chrome extension that you publish is made publicly available, so unless your friends want their faces published to an extension that anyone can use, I'd suggest sticking to Option #2.
 
 #### How to make a simple Chrome extension to replace the new tab page
-All you need to do to make your project into a Chrome extension is add a `manifest.json` file with the following contents. There are [plenty of other properties](https://developer.chrome.com/extensions/manifest) that you can add to your manifest file, but these are the only ones that are required for a new tab replacement:
+All you need to do to make your project into a Chrome extension is add a `manifest.json` file to the root of your project with the following contents. There are [plenty of other properties](https://developer.chrome.com/extensions/manifest) that you can add to your manifest file, but these are the only ones that are required for a new tab replacement:
 
 ```js
 {
@@ -219,7 +216,8 @@ All you need to do to make your project into a Chrome extension is add a `manife
 }
 ```
 
-To test your extension, you'll need to run it in Developer Mode by doing this:
+To test your extension, you'll need to run it in Developer Mode. Here's how to do that:
+
 1. Go to the Extensions page in Chrome by navigating to `chrome://extensions/`.
 2. Tick the checkbox in the upper-right corner labelled "Developer Mode".
 3. Click "Load unpacked extension..." and select this project.
@@ -230,4 +228,4 @@ Voila! Like I said, this is a _very_ light example of a Chrome extension, but Go
 ## Share the love
 Now that you know how to make a new tab extension, go forth and create! But yield your power responsibly. New tabs are opened so often that they've become a part of everyday life–just consider how many tabs you opened today. Some people prefer to-do lists in their new tabs, and others prefer cats. 
 
-At the end of the day, let's make something that makes us happy.
+At the end of the day, let's make something that makes us happy. Cheers!
