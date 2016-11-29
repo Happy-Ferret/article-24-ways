@@ -9,6 +9,7 @@ If there's one thing 2016 has taught me, it's that we—the self-serious, world-
 How do I know? This year I created a Chrome extension called [Tabby Cat](https://chrome.google.com/webstore/detail/tabby-cat/mefhakmgclhhfbdadeojlkbllmecialg) and watched hundreds of thousands of people ditch productivity for randomly generated cats. Tabby Cat replaces your new tab page with an SVG cat featuring a silly name like "Stinky Dinosaur" or "Tiny Potato". Over time, the cats collect goodies that vary in absurdity from fishbones to lawn flamingos to Raybans. Kids and adults alike use this extension, and analytics show the majority of use happens Monday through Friday from 9-5. The popularity of Tabby Cat has convinced me there's still plenty of room in our big, grown-up hearts for fun.
 
 ![Tabby Cat](images/tabbycat.gif)
+_[Tabby Cat](https://chrome.google.com/webstore/detail/tabby-cat/mefhakmgclhhfbdadeojlkbllmecialg)_
 
 Today, we’re going to combine the formula behind Tabby Cat with your intrinsic desire to delight (or troll) your friends, and create a web app that generates your friends with random objects and environments of your choosing. You can publish it as a Chrome extension to replace your new tab, or simply host it as a website and point to it with the [New Tab Redirect](https://chrome.google.com/webstore/detail/new-tab-redirect/icpgjfneehieebagbmdbhnlpiopdcmna?hl=en) extension. 
 
@@ -42,7 +43,7 @@ For each person, find an image where their face is pointed as forward as possibl
 ![Faces in Illustrator](images/step1-1.png)
 _As you can see, my use of the word "family" extends to cats. There's no judgement here._
 
-I find it helpful to clip my images at the edge of each artboard so that my file remains neat and tidy. Notice that some of my photos don't completely fill the artboard–that's fine. The images will be clipped into ovals when they're rendered in the application.
+Notice that some of my photos don't completely fill the artboard–that's fine. The images will be clipped into ovals when they're rendered in the application.
 
 Now, export your images by following these steps:
 
