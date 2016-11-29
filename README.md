@@ -145,10 +145,8 @@ Next, follow the same steps as you did when you exported the faces. Here they ar
 3. Export at 72ppi to keep things running fast. 
 4. Save your images into the `images/` folder in your project.
 
-Now, load your images into the application and see what you've created.
-
 #### Add your accessories to config.js
-In `config.js`, add a new key to the `customProps` object that describes the group of accessories you just created. Its value should be an array of the filepaths to your images.
+In `config.js`, add a new key to the `customProps` object that describes the group of accessories that you just created. Its value should be an array of the filepaths to your images. This is my hats array:
 
 ```js
 customProps: {
@@ -170,7 +168,7 @@ Repeat the steps above to create as many groups of accessories as you want. I we
 
 ![Final illustrator file](images/step4-3.png)
 
-And my final `customProps` object looks like this:
+The last step is adding your new groups to the config object. List your groups in the order that you want them to be stacked in the DOM. My final output will be hair, then hats, then glasses:
 
 ```js
 customProps: {
@@ -191,9 +189,9 @@ customProps: {
 }
 ```
 
-Notice that I put `hair` before `hats`. The order you declare your groups in `customProps` determines the stack order in the DOM. So my final output will be hair, then hats, then glasses.
-
 And, there you have it! Randomly generated friends with random accessories. 
+
+![Final Beep](images/step4-4.png)
 
 Feel free to go much crazier than I did. I considered adding a whole group of animals in celebration of the new season of Planet Earth, or even adding Sir Attenborough himself, or doing a bit of role reversal and featuring the animals with little safari hats! But I digress...
 
